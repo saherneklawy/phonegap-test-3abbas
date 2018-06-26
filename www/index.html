@@ -55,6 +55,9 @@
 
     </head>
     <body>
+	 <input type="phone"></input>
+	 <a href="tel://01003564005">saher's phone</a>
+	 
      <div id="container">
 
      </div>
@@ -73,7 +76,7 @@
     var db = firebase.firestore();
 
     function addContact(data) {
-        var htmlContent = "<a  href='tel:"+data.number+"' class='contact'>";
+        var htmlContent = "<a  href='tel://"+data.number+"' class='contact'>";
         if(data.icon) {
           htmlContent += "<div class='icon'><img src='"+data.icon+"'></img></div>";
         }
