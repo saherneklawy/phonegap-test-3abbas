@@ -11,4 +11,8 @@
     <access origin="*" />
 	
 	<icon src="3abbas.jpg"></icon>
+	
+	<plugin name="cordova-plugin-whitelist" version="1" />
+	<allow-navigation href="*" />
+	<allow-intent href="*" />
 </widget>
